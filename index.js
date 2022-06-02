@@ -157,4 +157,4 @@ Client.on("messageCreate", message => {
 
 
 
-Client.login("095b1dbc3f26aa4b81d319693904e51ae57e7adf3d78e75f2936dc524dc04a3d");
+Client.login(process.env.token);
